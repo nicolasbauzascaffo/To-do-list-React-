@@ -1,0 +1,25 @@
+.home {
+  display: grid;
+  width: 100%;
+  grid-template:
+  'header' 35%
+  'main-box' auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main-box {
+  grid-area: main-box;
+}
+
+@media(min-width: 500px) {
+  .home{
+    grid-template:
+    'header' 45%
+    'main-box' 1fr
+  }
+}
