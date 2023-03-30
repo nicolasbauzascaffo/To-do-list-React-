@@ -16,7 +16,7 @@
   grid-area: main-box;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 300px) {
   .home{
     grid-template:
     'header' 45%
